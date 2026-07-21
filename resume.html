@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perry Liao Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: #1f2937;
+            background: #ffffff;
+            font-family: "Poppins", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+            line-height: 1.65;
+        }
+
+        main {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 40px 48px;
+        }
+
+        header {
+            border-bottom: 2px solid #ef4444;
+            padding-bottom: 20px;
+            margin-bottom: 26px;
+        }
+
+        h1 {
+            margin: 0 0 6px;
+            font-size: 34px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            margin: 26px 0 10px;
+            color: #111827;
+            font-size: 19px;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 6px;
+        }
+
+        h3 {
+            margin: 16px 0 4px;
+            font-size: 16px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        ul {
+            margin: 8px 0 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #4b5563;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 18px;
+            margin-top: 12px;
+            color: #374151;
+            font-size: 13px;
+        }
+
+        .summary {
+            font-size: 14px;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .tag-list li {
+            margin: 0;
+            padding: 5px 9px;
+            border-radius: 6px;
+            background: #f3f4f6;
+            font-size: 12px;
+        }
+
+        .meta {
+            color: #6b7280;
+            font-size: 13px;
+        }
+
+        @media print {
+            main {
+                padding: 28px 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Perry Liao / 廖晉瑋</h1>
+            <div class="subtitle">Software Engineer / QA Lead</div>
+            <div class="contact">
+                <span>Taichung, Taiwan</span>
+                <span>p24069389s@gmail.com</span>
+                <span>+886 975-529-242</span>
+                <span>github.com/LiaoPerry</span>
+                <span>liaoperry.github.io</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Profile</h2>
+            <p class="summary">Software engineer and QA Lead with hands-on experience across QA strategy, production debugging, CI/CD support, infrastructure operations, system integration, and project coordination. I enjoy turning repeated operational pain into traceable workflows, internal tools, documentation, and automation.</p>
+        </section>
+
+        <section>
+            <h2>Core Strengths</h2>
+            <ul>
+                <li>Root-cause analysis across logs, APIs, databases, deployment changes, network behavior, and system boundaries.</li>
+                <li>QA process improvement, risk assessment, test design, defect tracking, and cross-functional communication.</li>
+                <li>Infrastructure and DevOps support using Linux, Jenkins, Docker, DNS, TLS, Zabbix, WAF, Git, Bitbucket, and Jira.</li>
+                <li>System integration experience with REST APIs, SOAP, PostgreSQL, Oracle, and production troubleshooting.</li>
+                <li>Builder mindset: convert vague ideas into practical architecture, implementation plans, and maintainable workflows.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Technical Stack</h2>
+            <ul class="tag-list">
+                <li>Linux</li>
+                <li>Java</li>
+                <li>Jenkins</li>
+                <li>Docker</li>
+                <li>PostgreSQL</li>
+                <li>Oracle</li>
+                <li>REST API</li>
+                <li>SOAP</li>
+                <li>TLS</li>
+                <li>DNS</li>
+                <li>WAF</li>
+                <li>Zabbix</li>
+                <li>Git</li>
+                <li>Bitbucket</li>
+                <li>Jira</li>
+                <li>Automation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Current Work</h2>
+            <h3>Software Engineering / QA / Infrastructure Support</h3>
+            <p class="meta">Current responsibilities</p>
+            <ul>
+                <li>Support QA planning, defect investigation, production issue analysis, CI/CD troubleshooting, and system integration.</li>
+                <li>Coordinate between business requirements, engineering implementation, QA verification, and infrastructure constraints.</li>
+                <li>Improve repeatable workflows for testing, deployment checks, incident triage, and knowledge reuse.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Selected Projects</h2>
+            <h3>QA Automation & Internal Tooling</h3>
+            <p>Exploring tools that connect Jira, Git differences, test case generation, and reusable QA knowledge so repeated QA work becomes easier to trace and reuse.</p>
+
+            <h3>Self-hosting Lab</h3>
+            <p>Maintaining personal infrastructure across Raspberry Pi, Oracle Cloud, Ubuntu, Windows, Docker, Jenkins, Nextcloud, Portainer, OpenProject, WireGuard, Ollama, and Zabbix.</p>
+
+            <h3>PHP + yt-dlp Downloader</h3>
+            <p>Personal side product focused on UX, caching, rate limiting, and possible monetization experiments.</p>
+        </section>
+
+        <section>
+            <h2>Direction</h2>
+            <p>I want to build useful products, become more location independent, and keep improving through automation, infrastructure, product thinking, and practical engineering depth.</p>
+        </section>
+    </main>
+</body>
+</html>

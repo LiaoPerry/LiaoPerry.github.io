@@ -20,7 +20,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="./css/tailwind.css" />
     <link rel="stylesheet" href="./css/custom.css" />
-    <title>Perry Liao | Software Engineer & AI Builder</title>
+    <title>Perry Liao | Software Engineer / QA Lead</title>
 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -66,31 +66,31 @@
             <ul
                 class="block rounded-b-[20px] shadow-md absolute left-0 top-20 z-[22222222222222] w-full bg-white dark:bg-[#1d1d1d]">
                 <li>
-                    <a class="mobile-menu-items-active" href="./index.html">
+                    <a class="mobile-menu-items-active" href="#about">
                         <span class="mr-2 text-xl">
                             <i class="fa-regular fa-user"></i>
                         </span> 關於 </a>
                 </li>
                 <li>
-                    <a class="mobile-menu-items" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                    <a class="mobile-menu-items" href="./assets/Perry_Liao_Resume.pdf" download>
                         <span class="mr-2 text-xl">
                             <i class="fa-regular fa-file-lines"></i>
                         </span> 簡歷 </a>
                 </li>
                 <li>
-                    <a class="mobile-menu-items" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                    <a class="mobile-menu-items" href="#projects">
                         <span class="mr-2 text-xl">
                             <i class="fas fa-briefcase"></i>
                         </span> 作品集 </a>
                 </li>
                 <li>
-                    <a class="mobile-menu-items" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                    <a class="mobile-menu-items" href="#" onclick="alert('規劃中：之後會放技術筆記、專案紀錄與學習整理。')">
                         <span class="mr-2 text-xl">
                             <i class="fa-brands fa-blogger"></i>
                         </span> 紀錄 </a>
                 </li>
                 <li>
-                    <a class="mobile-menu-items" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                    <a class="mobile-menu-items" href="mailto:p24069389s@gmail.com">
                         <span class="mr-2 text-xl">
                             <i class="fa-solid fa-address-book"></i>
                         </span> 聯絡我 </a>
@@ -180,8 +180,8 @@
                         </div>
                         <!-- personal infomation end-->
                         <!-- dowanload button -->
-                        <button class="dowanload-btn">
-                            <img class="mr-3" src="./images/icons/dowanload.png" alt="icon" /> 履歷下載 </button>
+                        <a class="dowanload-btn" href="./assets/Perry_Liao_Resume.pdf" download>
+                            <img class="mr-3" src="./images/icons/dowanload.png" alt="icon" /> 履歷下載 </a>
                     </div>
                 </div>
             </div>
@@ -191,23 +191,23 @@
                     class="lg:w-[560px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]">
                     <nav class="hidden lg:block">
                         <ul class="flex">
-                            <li> <a class="menu-active" href="./index.html">
+                            <li> <a class="menu-active" href="#about">
                                     <span class="text-xl mb-1">
                                         <i class="fa-regular fa-user"></i>
                                     </span> 關於 </a></li>
-                            <li> <a class="menu-item" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                            <li> <a class="menu-item" href="./assets/Perry_Liao_Resume.pdf" download>
                                     <span class="text-xl mb-1">
                                         <i class="fa-regular fa-file-lines"></i>
                                     </span> 簡歷 </a></li>
-                            <li> <a class="menu-item" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                            <li> <a class="menu-item" href="#projects">
                                     <span class="text-xl mb-1">
                                         <i class="fas fa-briefcase"></i>
                                     </span> 作品集 </a></li>
-                            <li><a class="menu-item" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                            <li><a class="menu-item" href="#" onclick="alert('規劃中：之後會放技術筆記、專案紀錄與學習整理。')">
                                     <span class="text-xl mb-1">
                                         <i class="fa-brands fa-blogger"></i>
                                     </span> 紀錄 </a></li>
-                            <li> <a class="menu-item" href="#" onclick="alert('目前不開放\n還在開發準備中~')">
+                            <li> <a class="menu-item" href="mailto:p24069389s@gmail.com">
                                     <span class="text-xl mb-1">
                                         <i class="fa-solid fa-address-book"></i>
                                     </span> 聯絡我 </a></li>
@@ -218,7 +218,7 @@
 
                 <!-- about me section start -->
                 <div>
-                    <div class="lg:rounded-2xl bg-white dark:bg-[#111111]">
+                    <div id="about" class="lg:rounded-2xl bg-white dark:bg-[#111111]">
                         <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
                             <!-- about page title -->
                             <h2 class="after-effect after:left-52">關於我</h2>
@@ -311,9 +311,9 @@
                                         <!-- personal info end -->
 
                                         <!-- dowanload button -->
-                                        <button class="dowanload-btn">
+                                        <a class="dowanload-btn" href="./assets/Perry_Liao_Resume.pdf" download>
                                             <img class="mr-3" src="./images/icons/dowanload.png" alt="icon" /> 履歷下載
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -323,8 +323,8 @@
                                 <div class="col-span-12 space-y-2.5">
                                     <div class="lg:mr-16">
                                         <p class="text-[#44566c] dark:text-color-910 leading-7"> 我是 Perry，一位在台灣工作的軟體工程師與 QA Lead。我的日常橫跨測試策略、系統整合、Production Debugging、CI/CD、基礎設施支援與專案協調，擅長把模糊問題拆成可以追蹤、驗證、改善的系統。 </p>
-                                        <p class="text-[#44566c] leading-7 mt-2.5 dark:text-color-910"> 我對 AI、Automation、Linux、Infrastructure、Self-hosting 與 Personal Knowledge Management 特別著迷。比起只解掉一次問題，我更喜歡設計一套能長期累積、重複使用、讓人少做笨工的工作流。 </p>
-                                        <p class="text-[#44566c] leading-7 mt-2.5 dark:text-color-910"> 長期目標是打造真正有幫助的 AI 產品與個人第二大腦：能記住生活脈絡、理解人與專案、陪伴成長，並讓知識和經驗隨時間複利。 </p>
+                                        <p class="text-[#44566c] leading-7 mt-2.5 dark:text-color-910"> 我重視 Linux、Automation、Infrastructure、DevOps 與可維護的工作流程。比起只解掉一次問題，我更喜歡把問題整理成可複用的工具、文件與流程，讓團隊之後少做重複工。 </p>
+                                        <p class="text-[#44566c] leading-7 mt-2.5 dark:text-color-910"> 長期目標是持續累積能改善工作效率與產品品質的系統能力，並把工程、QA、維運與產品思維整合成可靠的交付方法。 </p>
                                     </div>
                                     <div></div>
                                 </div>
@@ -367,8 +367,8 @@
                                     <img class="w-10 h-10 object-contain block" src="./images/icons/icon3.svg"
                                         alt="icon" />
                                     <div class="space-y-2">
-                                        <h3 class="dark:text-white text-[22px] font-semibold"> AI Agents & Automation </h3>
-                                        <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> 正在打造 OpenClaw、QA Brain 與長期記憶系統，探索 AI 如何讀 Jira、理解程式碼差異、累積知識並接入日常工作流。 </p>
+                                        <h3 class="dark:text-white text-[22px] font-semibold"> Automation & Internal Tools </h3>
+                                        <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]"> 打造能接入 Jira、Git、測試流程與知識文件的內部工具，讓重複性工作可以被標準化、自動化，並逐步累積成團隊資產。 </p>
                                     </div>
                                 </div>
 
@@ -393,17 +393,17 @@
                         </div>
 
                         <!-- current focus section start -->
-                        <div class="px-2 sm:px-5 md:px-10 lg:px-14">
+                        <div id="projects" class="px-2 sm:px-5 md:px-10 lg:px-14">
                             <div class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl">
                                 <h3 class="text-center dark:text-white text-[35px] mb-3 font-bold font-robotoSlab"> 目前重點 </h3>
                                 <div class="grid gap-6 grid-cols-1 md:grid-cols-2 px-6 pt-8">
                                     <div class="p-6 rounded-xl bg-white dark:bg-[#111111]">
-                                        <h4 class="dark:text-white text-[20px] font-semibold mb-2">OpenClaw / QA Brain</h4>
-                                        <p class="leading-7 text-gray-lite dark:text-[#A6A6A6]"> 建構長期可重複使用的 AI 工作系統，讓 AI 能協助閱讀 Jira、分析程式碼差異、產生測試案例、記錄 QA 知識並逐步成為永久的 QA teammate。 </p>
+                                        <h4 class="dark:text-white text-[20px] font-semibold mb-2">QA Automation & Tooling</h4>
+                                        <p class="leading-7 text-gray-lite dark:text-[#A6A6A6]"> 整理測試流程、缺陷追蹤、Jira 資訊與 Git 差異，讓 QA 工作更容易被追蹤、複用與交接。 </p>
                                     </div>
                                     <div class="p-6 rounded-xl bg-white dark:bg-[#111111]">
-                                        <h4 class="dark:text-white text-[20px] font-semibold mb-2">Personal Second Brain</h4>
-                                        <p class="leading-7 text-gray-lite dark:text-[#A6A6A6]"> 設計 mobile-first 的 AI diary / memory OS，目標是讓記憶、人物、對話與人生脈絡能被自己擁有、搜尋、回顧並長期累積。 </p>
+                                        <h4 class="dark:text-white text-[20px] font-semibold mb-2">Knowledge Systems</h4>
+                                        <p class="leading-7 text-gray-lite dark:text-[#A6A6A6]"> 探索文件、搜尋、RAG、個人知識管理與長期專案脈絡保存，讓經驗能被整理、查找與延續。 </p>
                                     </div>
                                     <div class="p-6 rounded-xl bg-white dark:bg-[#111111]">
                                         <h4 class="dark:text-white text-[20px] font-semibold mb-2">Self-hosting Lab</h4>
@@ -411,7 +411,7 @@
                                     </div>
                                     <div class="p-6 rounded-xl bg-white dark:bg-[#111111]">
                                         <h4 class="dark:text-white text-[20px] font-semibold mb-2">Side Products</h4>
-                                        <p class="leading-7 text-gray-lite dark:text-[#A6A6A6]"> 持續探索 SaaS、AI products、automation、passive income 與 remote work 的可能性，也在打造 PHP + yt-dlp downloader 等個人產品。 </p>
+                                        <p class="leading-7 text-gray-lite dark:text-[#A6A6A6]"> 持續探索 SaaS、automation、passive income 與 remote work 的可能性，也在打造 PHP + yt-dlp downloader 等個人產品。 </p>
                                     </div>
                                 </div>
                             </div>
